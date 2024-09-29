@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Boutique en Ligne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            margin: 15px;
+            width: calc(33.333% - 30px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .product p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .product .price {
+            color: #e67e22;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .product button {
+            padding: 10px 20px;
+            background-color: #27ae60;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Ma Boutique en Ligne</h1>
+    </div>
+
+    <div class="container">
+        <!-- Produit 1 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Produit 1">
+            <h2>Nom du produit 1</h2>
+            <p>Description brève du produit 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="price">€49,99</p>
+            <button>Ajouter au panier</button>
+        </div>
+
+        <!-- Produit 2 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Produit 2">
+            <h2>Nom du produit 2</h2>
+            <p>Description brève du produit 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="price">€69,99</p>
+            <button>Ajouter au panier</button>
+        </div>
+
+        <!-- Produit 3 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300" alt="Produit 3">
+            <h2>Nom du produit 3</h2>
+            <p>Description brève du produit 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="price">€89,99</p>
+            <button>Ajouter au panier</button>
+        </div>
+    </div>
+
+</body>
+</html>
